@@ -7,6 +7,12 @@ import os
 from PIL import Image
 from transformers import BertTokenizer, BertModel, BertForMaskedLM
 
+
+#### OA
+### from transformers import AutoModel, AutoTokenizer, AutoModelForMaskedLM
+### tokenizer = AutoTokenizer.from_pretrained("dbmdz/bert-base-german-cased")
+### model = AutoModel.from_pretrained("dbmdz/bert-base-german-cased")
+
 class LoadVisualGenomeDataset(Dataset):
     def __init__(self, dataset_json_file, image_conf=None, relation_num = 115):
         """

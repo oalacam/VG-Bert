@@ -29,7 +29,7 @@ python visual_stream_pretraining.py \
 /directory-to-ImageNet-dataset/ImageNet2012/
 ```
 
-### stage-2: two-stream grounding on MS COCO dataset with corss-modal contrastive loss:
+### stage-2: two-stream grounding on MS COCO dataset with cross-modal contrastive loss:
 
 <img src="figures/model_structure_horizontal.jpg" width="600">
 
